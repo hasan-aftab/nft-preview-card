@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+body {
+  height: 100vh;
+  background-color: #0D1A2D;
+}
+
+.card {
+  max-width: 290px;
+  width: 100%;
+  height: 500px;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 12px;
+  background-color: #15273F;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+  border-radius: 10px;
+  height: 60%;
+}
+
+img:hover {
+  width: 100%;
+  background-image: url('NFT/images/icon-view.svg');
+  opacity: 0.5;
+}
+
+.heading {
+  margin: 15px 0px 15px 0px;
+  color: white;
+}
+
+.heading:hover {
+  color: #01FAF7;
+  cursor: pointer;
+}
+
+.middle-text {
+  color: #758AA8;
+}
+
+.details {
+  font-size: 15px;
+  margin: 15px 0px 15px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.decimal-div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.decimal-div img {
+  width: 13px;
+}
+
+.decimal-value {
+  color: #01FAF7;
+  font-weight: 800;
+}
+
+.time-div {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.time-div img {
+  width: 16px;
+  height: 16px;
+}
+
+.time {
+  color: #90B1DD;
+}
+
+.horizontal-ruler {
+  margin: 20px 0px 15px 0px;
+  border: 1px solid #758AA8;
+}
+
+.creator-div {
+  margin: 10px 0px 0px 0px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.creator-div img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  border: 1px solid white;
+}
+
+.creator-detail {
+  color: #758AA8;
+}
+
+.creator-name {
+  color: white;
+}
+
+.creator-name:hover {
+  color: #01FAF7;
+  cursor: pointer;
+}
